@@ -9,10 +9,10 @@ namespace Practica2
         SEP_OBS = 6, // separación horizontal entre obstáculos
         HUECO = 7, // hueco de los obstáculos (en vertical)
         COL_BIRD = ANCHO / 3, // columna fija del pájaro
-        IMPULSO = 3, // unidades de ascenso por aleteo
-        DELTA = 300; // retardo entre frames (ms)
+        IMPULSO = 3, 
+        DELTA = 300; 
         static void Main()
-        { // programa principal
+        {
             int[] suelo, techo;
             int fil, ascenso, frame, puntos;
             bool colision, pausa = false;
